@@ -1,27 +1,29 @@
 .backgroundImage{
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   justify-content: center;
   align-content: center;
-  background-size: 100% 100%;
+  background-size: contain;
   background-repeat: no-repeat;
   cursor: crosshair;
+  background-position: center;
 }
 
-.banner-container{
+.input-field{
   background-color: rgba(0,0,0, 0.7);
   position: absolute;
   display: grid;
   place-items: center;
-}
 
-.input-field{
   width: 100%;
   height: 100%;
-  font-size: 1rem;
-  background-color: rgba(255,255,255,0);
+  font-size: 1vmax;
   color: white;
+  text-align: start;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  resize: none;
 }
 
 .file-input{
